@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: linear-gradient(teal, orange,rgb(238, 104, 126));
+    color: rgb(5, 53, 65);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 100vh;
+    width: 100vw;
+}
+.sectionOne {
+    font-size: 30px;
+}
+.sectionTwo {
+    font-size: 30px;
+}
+.sectionThree {
+    font-size: 20px;
+}
+.sectionFour {
+    font-size: 30px;
+}
+
+ul.a {
+    list-style-type: circle;
+}
+.buttons {
+    display: inline-block;
+    justify-content: center;
+    cursor: pointer;
+}
